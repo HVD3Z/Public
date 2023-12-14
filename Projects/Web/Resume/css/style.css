@@ -1,0 +1,53 @@
+/* unvisited link */
+a:link {
+    color: red;
+  }
+
+/* visited link */
+a:visited {
+color: green;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+.contact-info { 
+  grid-area: info; 
+}
+.summary { 
+  grid-area: sum; 
+}
+.education { 
+  grid-area: edu; 
+}
+.experience { 
+  grid-area: exp;
+}
+.skills { 
+  grid-area: skill; 
+  padding-top: 23%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    background-image: url("../images/deskspace.jpg");
+    background-size: cover;
+    color: antiquewhite;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    font-size: medium;
+    grid-template-columns: 43% 30%;
+    grid-template-areas: 'info skill'
+                         'sum skill'
+                         'edu skill'
+                         'exp skill';
+}
