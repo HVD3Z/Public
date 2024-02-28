@@ -1,5 +1,7 @@
-$ipList = Get-Content -Path "C:\Users\eyoung\Downloads\burner.txt"
-$outputFile = "C:\Users\eyoung\Downloads\ip_list.txt"
+# This script will run and scrape up / down status of each ip specified in the burner.txt file
+
+$ipList = Get-Content -Path "%USERPROFILE%\Downloads\burner.txt"
+$outputFile = "%USERPROFILE%\Downloads\ip_list.txt"
 
 foreach ($ip in $ipList) {
     $ping = Test-Connection -ComputerName $ip -Count 1 -Quiet

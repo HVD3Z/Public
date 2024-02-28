@@ -1,3 +1,4 @@
+# This script will pull all requested control information from a Cisco ISE server
 # Set the path to the folder containing the Cisco config text files
 #$FolderPath = "C:\Path\To\Config\Files"
 $FolderPath = "C:\Path\To\Config\Files"

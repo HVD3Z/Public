@@ -76,6 +76,10 @@ brew install zorba
 # Install GH (github cli tools)
 brew install gh
 
+# Install steampipe.io
+brew tap turbot/tap
+brew install steampipe
+
 # Install Podman Desktop (for managing podman containers)
 brew install --cask podman-desktop
 
