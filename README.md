@@ -1,3 +1,3 @@
 # Public
 
-This repository will hold all projects and scripts that have been tested and completed. They are not finished however and will be tweaked as time goes on to better fulfill requirements.
+This repository holds all scripts that I feel will be beneficial to provide to the public. All larger projects will have their own repository but links within the OS specific readme file.
