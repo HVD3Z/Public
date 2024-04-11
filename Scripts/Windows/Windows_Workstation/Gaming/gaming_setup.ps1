@@ -64,8 +64,9 @@ Start-Sleep -s 5
 
 # Install Chiaki PlayStation Streaming App
 Write-Host "Installing Chiaki..."
-Invoke-WebRequest -Uri "https://git.sr.ht/~thestr4ng3r/chiaki/refs/download/v2.2.0/Chiaki-v2.2.0-Windows-x86_64.zip" -OutFile "C:\Temp\Chiaki-v2.2.0-Windows-x86_64.zip"
-Expand-Archive -Path "C:\Temp\Chiaki-v2.2.0-Windows-x86_64.zip" -DestinationPath "C:\Program Files (x86)\Chiaki\"
-Remove-Item "C:\Temp\Chiaki-v2.2.0-Windows-x86_64.zip"
+Invoke-WebRequest -Uri "https://git.sr.ht/~thestr4ng3r/chiaki/refs/download/v2.2.0/Chiaki-v2.2.0-Windows-x86_64.zip" -OutFile "C:\Chiaki-v2.2.0-Windows-x86_64.zip"
+Expand-Archive -Path "C:\Chiaki-v2.2.0-Windows-x86_64.zip" -DestinationPath "C:\Program Files (x86)\Chiaki\"
+Remove-Item "C:\Chiaki-v2.2.0-Windows-x86_64.zip"
 Write-Host "Chiaki installation completed successfully!"
 Start-Sleep -s 5
+Write-Host "Script completed. Please review output for errors."
